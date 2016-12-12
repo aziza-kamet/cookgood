@@ -1,0 +1,62 @@
+{
+  "name": "typicons.font",
+  "description": "Typicons are free-to-use vector icons embedded in a webfont for easy use in your user interfaces, whether it be on the web or in a native application.",
+  "version": "2.0.8",
+  "style": "src/font/typicons.css",
+  "main": "src/font/typicons.css",
+  "keywords": [
+    "icon",
+    "fonts",
+    "icons",
+    "font-face",
+    "webfont"
+  ],
+  "homepage": "http://typicons.com/",
+  "bugs": {
+    "url": "https://github.com/stephenhutchings/typicons.font/issues"
+  },
+  "author": {
+    "name": "Stephen Hutchings",
+    "url": "http://www.s-ings.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenhutchings/typicons.font.git"
+  },
+  "license": "(CC-BY-SA and SIL)",
+  "dependencies": {},
+  "files": [
+    "src/font/typicons.css",
+    "src/font/typicons.svg",
+    "src/font/typicons.eot",
+    "src/font/typicons.ttf",
+    "src/font/typicons.woff"
+  ],
+  "gitHead": "d63bfc2822135769d894e5300422b77fb61f6bef",
+  "_id": "typicons.font@2.0.8",
+  "scripts": {},
+  "_shasum": "ddbc42da781af4ee74da3362a72842519bbd1b17",
+  "_from": "typicons.font@latest",
+  "_npmVersion": "3.10.6",
+  "_nodeVersion": "0.10.28",
+  "_npmUser": {
+    "name": "s-ings",
+    "email": "stephen@s-ings.com"
+  },
+  "maintainers": [
+    {
+      "name": "s-ings",
+      "email": "stephen@s-ings.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ddbc42da781af4ee74da3362a72842519bbd1b17",
+    "tarball": "https://registry.npmjs.org/typicons.font/-/typicons.font-2.0.8.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/typicons.font-2.0.8.tgz_1471824210124_0.7980409059673548"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/typicons.font/-/typicons.font-2.0.8.tgz"
+}

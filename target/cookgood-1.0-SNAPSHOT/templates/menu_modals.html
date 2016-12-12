@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div class="modal fade" id="loginModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Authorization</h4>
+      </div>
+      <div class="modal-body">
+        <form action="auth" method="POST">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Login</label>
+              <input type="text" class="form-control" name="login">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" name="pwd">
+            </div>
+            <button type="submit" class="btn btn-primary">Log in</button>
+        </form>
+      </div>      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="regModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Registration</h4>
+      </div>
+      <div class="modal-body">
+        <form action="registration" method="POST">
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" name="login" class="form-control" id="exampleInputEmail1">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputName">Name</label>
+		    <input type="text" name="name" class="form-control" id="exampleInputName">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputSurname">Surname</label>
+		    <input type="text" name="surname" class="form-control" id="exampleInputSurname">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Password</label>
+		    <input type="password" name="pwd" class="form-control" id="exampleInputPassword1">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Rewrite password</label>
+		    <input type="password" name="repwd" class="form-control" id="exampleInputPassword2">
+		  </div>		  
+		  <button type="submit" class="btn btn-primary">Sign up</button>
+		</form>
+      </div>      
+    </div>
+  </div>
+</div>

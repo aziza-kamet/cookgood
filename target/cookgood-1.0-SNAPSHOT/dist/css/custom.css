@@ -1,0 +1,270 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 10%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 5%;
+  background-color: #f5f5f5;
+}
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+    border: none;
+}
+
+.navbar {
+  background-color: darkseagreen;
+}
+
+.navbar-light .navbar-brand{
+  color: #fff;
+}
+
+.navbar-light .navbar-brand:hover{
+  color:#fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link:hover,
+.navbar-light .navbar-nav .active>.nav-link:focus {
+  color: rgba(255,255,255,1); 
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,0.7);
+}
+
+#search-bar {
+  padding: 10% 0 16% 0;
+  background-color: darkseagreen;
+  height: 300px;
+}
+
+#search-bar h3 {
+  color: rgba(255,255,255,0.9);
+  padding-bottom: 3%;
+  font-size: 36px;
+}
+
+.input-group-btn>.btn {
+  color: rgba(0,0,0,0.5);
+}
+
+.categories, 
+.cuisine, 
+.new-recipes, 
+.best-authors {
+  padding: 5% 10% 0 10%;
+}
+
+.categories .text-xs-center{
+  padding: 2%;
+}
+
+.categories img {
+  width: 100%;
+}
+
+.categories p {
+  margin-bottom: 0;
+}
+
+.cuisine .list-group-item {
+  padding-left: 0;
+}
+
+.cuisine .list-group-item a{
+  color: #5C995C;
+}
+
+.cuisine .list-group-item a:hover{
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border-color: #5C995C;  
+}
+
+.btn-outline-primary:hover {
+  border-color: darkseagreen;  
+  background-color: darkseagreen;
+}
+
+.new-recipes .card{
+  border-radius: 0;
+  
+}
+
+.new-recipes img{
+  width: 100%;
+  border-radius: 0;
+}
+
+#recipes-search-bar {
+  padding: 8% 0 5% 0;
+}
+
+.recipes {
+  padding-top: 2%;
+} 
+
+.recipes .recipe-filter {
+    
+}
+
+.recipe {
+  padding: 0;
+  margin: 0% 0 5% 0;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.recipe img {
+  width: 100%;
+}
+
+.recipe-img {
+  padding: 0;
+}
+
+.recipe-info {
+  padding: 2% 3%;
+}
+
+.recipe-info-btm { 
+  padding-top: 10%;
+}
+
+.recipe-info-btm a {
+  padding-right: 3%;
+}
+
+.profile-block {
+  padding: 5% 10%;
+}
+
+.profile-block .card img {
+  width: 50%;
+  margin: 3% 25%;
+}
+
+.recipe-info-top{
+  width: 100%;
+}
+
+.recipe-info-top .info-right{
+  float: right;  
+}
+
+.recipe-page{
+  padding: 10% 5%;
+}
+
+.recipe-page-img {
+  width: 45%;
+}
+
+.recipe-page img{
+   width: 100%;
+}
+
+.recipe-page-title{
+  margin-top: 5%;
+}
+
+.recipe-page-details {
+  padding: 0 3%;
+  vertical-align: top;
+}
+
+.recipe-details-btm {
+  padding: 0 3%;
+  height: 50%;
+  vertical-align: bottom;
+}
+
+/* ===== */
+.recipe-details-btm img{
+  width: 15%;
+} 
+/* ===== */
+
+.ingredients {
+  padding: 5% 0;
+}
+
+.steps {
+  padding-bottom: 5%;
+}
+
+.form-submit {
+  padding-bottom: 10%;
+}
+
+.comments-content .row{
+  padding: 0 0 5% 0;
+}
+.comments-content .row img {
+  width: 50%;
+}
+
+.comments-content h6 {
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+
+.comments-content .col-md-3{
+  padding-right: 0;
+}
+.comments-content .col-md-9{
+  padding-left: 0;
+}
+
+.additional td{
+  padding: 0 20% 0 0;  
+}
+
+.additional .td-image{  
+  padding: 5% 5% 5% 0;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #b4c5b4;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#add-recipe{ 
+    background-color: SEAGREEN; 
+    border-radius: 5px; 
+    padding: 0px 4px; 
+} 
+#search-button{ 
+    background-color:cadetblue; 
+    color:white; 
+}
